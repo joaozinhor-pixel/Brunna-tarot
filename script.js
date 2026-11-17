@@ -8,7 +8,14 @@ const ESPECIFICAS=[
   ['Leitura de gravidez','10,00','Sobre maternidade, fertilidade e questões relacionadas à gravidez.'],
   ['Leitura de financeiro','15,00','Analisa sua vida financeira, oportunidades, desafios, prosperidade e possibilidades de crescimento.'],
   ['Leitura templo do diabo','20,00','Aprofunda traições, desejos, tentações, atração, segredos e intenções ocultas em um relacionamento.'],
-  ['Leitura templo de Afrodite','20,00','Aprofunda sentimentos, pensamentos, desejos, intenções e caminhos amorosos entre duas pessoas.']
+  ['Leitura templo de Afrodite','20,00','Aprofunda sentimentos, pensamentos, desejos, intenções e caminhos amorosos entre duas pessoas.'],
+  ['Vida amorosa','25,00','Uma análise da sua vida amorosa, revelando obstáculos, possibilidades, caminhos e tendências para o amor.'],
+  ['Tridente do amor','20,00','Descubra os sentimentos, pensamentos e a forma como aquela pessoa enxerga você.'],
+  ['Taça do amor','30,00','Uma análise completa do relacionamento, seus pontos fortes, dificuldades, sentimentos e futuro próximo.'],
+  ['Leitura anual','45,00','12 cartas para explorar as tendências, oportunidades e desafios de cada mês do seu ano.'],
+  ['Devo tomar essa decisão?','15,00','Descubra os prós, contras e possíveis resultados de uma decisão que deseja tomar.'],
+  ['Energia mensal','15,00','Descubra o que o mês reserva para você, suas principais energias e tendências.'],
+  ['Jogo completo','55,00','Uma leitura completa sobre todas as áreas da sua vida: amorosa, financeira, profissional, pessoal, familiar, espiritual e social, além de bloqueios e tendências futuras.']
 ];
 const CARTAS=[['Uma página','5'],['Duas páginas','10'],['Três páginas','15'],['Cinco páginas','20']];
 const PASSOS=[
@@ -29,7 +36,7 @@ const SECOES=[
     '<h2>Valores e tipos de tiragens</h2><h3>Tiragens de tarot</h3><ul class="lista">'+
     TIRAGENS.map(([n,p])=>linha(n,p,'Olá! Quero a tiragem: '+n+' (R$ '+p+').')).join('')+'</ul>'+
     '<h3>Tiragens específicas</h3>'+
-    ESPECIFICAS.map(([n,p,d])=>'<ul class="lista">'+linha(n,p,'Olá! Quero a '+n.toLowerCase()+' (R$ '+p+').')+'</ul><p class="desc">'+d+'</p>').join('')},
+    ESPECIFICAS.map(([n,p,d])=>'<ul class="lista">'+linha(n,p,'Olá! Quero fazer: '+n+' (R$ '+p+').')+'</ul><p class="desc">'+d+'</p>').join('')},
   {id:'pix',rotulo:'💳 Pagamento via Pix',html:()=>
     '<h2>Pagamento via Pix</h2>'+
     (PIX_CODIGO?'<p>Use o Pix copia e cola:</p><textarea id="pixcodigo" rows="4" readonly>'+PIX_CODIGO+'</textarea><p><button class="btn" id="copiar">Copiar código Pix</button> <span id="copiado"></span></p>'
