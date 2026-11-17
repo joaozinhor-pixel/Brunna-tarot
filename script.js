@@ -8,7 +8,7 @@ const ESPECIFICAS=[
   ['Leitura de gravidez','10,00','Sobre maternidade, fertilidade e questões relacionadas à gravidez.'],
   ['Leitura de financeiro','15,00','Analisa sua vida financeira, oportunidades, desafios, prosperidade e possibilidades de crescimento.'],
   ['Leitura templo do diabo','20,00','Aprofunda traições, desejos, tentações, atração, segredos e intenções ocultas em um relacionamento.'],
-  ['Leitura templo de Afrodite','20,00','Aprofunda sentimentos, pensamentos, desejos, intenções e caminhos amorosos entre duas pessoas.'],
+  ['Leitura templo de Afrodite','25,00','Aprofunda sentimentos, pensamentos, desejos, intenções e caminhos amorosos entre duas pessoas.'],
   ['Vida amorosa','25,00','Uma análise da sua vida amorosa, revelando obstáculos, possibilidades, caminhos e tendências para o amor.'],
   ['Tridente do amor','20,00','Descubra os sentimentos, pensamentos e a forma como aquela pessoa enxerga você.'],
   ['Taça do amor','30,00','Uma análise completa do relacionamento, seus pontos fortes, dificuldades, sentimentos e futuro próximo.'],
