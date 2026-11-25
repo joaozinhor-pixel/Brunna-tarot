@@ -3,7 +3,7 @@ const TELEFONE='5582999642470'; // WhatsApp com código do país e DDD, só núm
 const PIX_CODIGO='00020126330014BR.GOV.BCB.PIX0111132329814295204000053039865802BR5923Rayssa Honorio da Silva6009SAO PAULO62140510Oa1Swp86Xr63047895'; // código Pix copia e cola (deixe '' para esconder)
 // ======================
 
-const TIRAGENS=[['Uma pergunta objetiva (cada)','2,00'],['Três perguntas','5,00'],['Seis perguntas','10,00'],['Nove perguntas','15,00']];
+const TIRAGENS=[['Uma pergunta objetiva (cada)','2,00'],['Três perguntas','6,00'],['Seis perguntas','12,00'],['Nove perguntas','18,00']];
 const ESPECIFICAS=[
   ['Leitura de gravidez','10,00','Sobre maternidade, fertilidade e questões relacionadas à gravidez.'],
   ['Leitura de financeiro','15,00','Analisa sua vida financeira, oportunidades, desafios, prosperidade e possibilidades de crescimento.'],
